@@ -1,7 +1,7 @@
 {
-   "name": "Hijs for chrome",
+   "name": "Hijs",
    "version": "0.0.1",
-   "description": "Hijs as chrome extension for reading .js files.",
+   "description": "Raw javascript file highlighter.",
    "permissions" : [
       "http://*/*.js",
       "https://*/*.js"
