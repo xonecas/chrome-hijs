@@ -1,0 +1,17 @@
+{
+   "name": "Hijs for chrome",
+   "version": "0.0.1",
+   "description": "Hijs as chrome extension for reading .js files.",
+   "permissions" : [
+      "http://*/*.js",
+      "https://*/*.js"
+   ],
+   "content_scripts": [
+      {
+         "matches": ["http://*/*.js", "https://*/*.js"],
+         "js": ["hijs.js"],
+         "css": ["highlight.css"]
+      }
+   ]
+}
+

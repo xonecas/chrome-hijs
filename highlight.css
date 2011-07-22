@@ -1,0 +1,6 @@
+pre .keyword              { font-weight: bold }
+pre .string, pre .regexp { color: green }
+pre .class, pre .special { color: blue }
+pre .number               { color: pink }
+pre .comment              { color: grey }
+
