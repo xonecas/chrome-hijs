@@ -1,6 +1,15 @@
-pre .keyword              { font-weight: bold }
-pre .string, pre .regexp { color: green }
-pre .class, pre .special { color: blue }
-pre .number               { color: red }
-pre .comment              { color: grey }
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
 
+html, body {
+   background: #030303;
+   color: #fff;
+}
+pre, code {
+   font-family: 'Inconsolata', sans-serif;
+}
+
+pre .keyword               { color: #F3E218 }
+pre .string, pre .regexp   { color: #A5113F }
+pre .class, pre .special   { color: #F2004C }
+pre .number                { color: #1399BF }
+pre .comment               { color: #0883A6 }
