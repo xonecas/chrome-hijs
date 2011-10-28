@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+@import url(//fonts.googleapis.com/css?family=Inconsolata);
 
 html, body {
    background: #030303;
@@ -6,10 +6,13 @@ html, body {
 }
 pre, code {
    font-family: 'Inconsolata', sans-serif;
+   font-size: 14px;
 }
 
-pre .keyword               { color: #F3E218 }
-pre .string, pre .regexp   { color: #A5113F }
-pre .class, pre .special   { color: #F2004C }
-pre .number                { color: #1399BF }
-pre .comment               { color: #0883A6 }
+pre .keyword { color: #FF0C4B; }
+pre .string { color: #01DBFF; }
+pre .regexp { color: #15E80B; }
+pre .class { color: #15E80B; font-weight: bold; }
+pre .special { color: #FFD901; }
+pre .number { color: #01DBFF; }
+pre .comment { color: grey; font-style: italic; }
